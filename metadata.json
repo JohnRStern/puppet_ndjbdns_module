@@ -1,0 +1,41 @@
+{
+  "name": "ladnregistry-ndjbdns",
+  "version": "0.2.2",
+  "author": "Land Registry",
+  "summary": "Manages ndjbdns installation and configuration",
+  "license": "MIT",
+  "source": "https://github.com/LandRegistry-Ops/puppet-ndjbdns",
+  "project_page": "https://github.com/LandRegistry-Ops/puppet-ndjbdns",
+  "issues_url": "https://github.com/LandRegistry-Ops/puppet-ndjbdns/issues",
+  "operatingsystem_support": [
+    {
+     "operatingsystem": "RedHat",
+     "operatingsystemrelease": [
+       "7"
+     ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.7.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.7.0"
+    }
+  ],
+  "description": "Manages NDJBDNS installation and configuration",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.9.0"
+    }
+  ]
+}
